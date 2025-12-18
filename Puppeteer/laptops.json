@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Lenovo IdeaPad Slim 3 OLED 15IRH10 83K100HBMB Azerty",
+    "price": 899,
+    "reviews": 5,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/963928/lenovo-ideapad-slim-3-oled-15irh10-83k100hbmb-azerty.html",
+    "specs": {
+      "processor": "Intel Core i7",
+      "RAM": "16 GB",
+      "screen": "15,1 inch",
+      "storage": "1 TB",
+      "gpu": "Intel UHD Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "ASUS Vivobook OLED X1505VA-L1647W Azerty",
+    "price": 899,
+    "reviews": 13,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/957512/asus-vivobook-oled-x1505va-l1647w-azerty.html",
+    "specs": {
+      "processor": "Intel Core i7",
+      "RAM": "16 GB",
+      "screen": "15,6 inch",
+      "storage": "1 TB",
+      "gpu": "Intel UHD Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "HP ProBook 4 G1i 16\"- Intel Core 5 - 16 GB - 512GB - B39XPAT Azerty",
+    "price": 871,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/969883/hp-probook-4-g1i-16-intel-core-5-16-gb-512gb-b39xpat-azerty.html",
+    "specs": {
+      "processor": "Intel Core i5",
+      "RAM": "16 GB",
+      "screen": "16 inch",
+      "storage": "512 GB",
+      "gpu": null,
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "Lenovo ThinkBook 16 G8 IRL - 21SH0051MB Azerty",
+    "price": 1099,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/966205/lenovo-thinkbook-16-g8-irl-21sh0051mb-azerty.html",
+    "specs": {
+      "processor": "Intel Core 7",
+      "RAM": "32 GB",
+      "screen": "16 inch",
+      "storage": "1 TB",
+      "gpu": "Intel Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "Lenovo ThinkBook 16 G8 IRL - 21SH005LMB Azerty",
+    "price": 999,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/966204/lenovo-thinkbook-16-g8-irl-21sh005lmb-azerty.html",
+    "specs": {
+      "processor": "Intel Core 7",
+      "RAM": "16 GB",
+      "screen": "16 inch",
+      "storage": "512 GB",
+      "gpu": "Intel Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "Lenovo ThinkPad E16 G3 IAL - 21SR006LMB Azerty",
+    "price": 1399,
+    "reviews": 1,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/966207/lenovo-thinkpad-e16-g3-ial-21sr006lmb-azerty.html",
+    "specs": {
+      "processor": "Intel Core Ultra 7",
+      "RAM": "32 GB",
+      "screen": "16 inch",
+      "storage": "1 TB",
+      "gpu": "Intel Arc Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "Lenovo LOQ 15ARP9 83JC00FFMB Azerty",
+    "price": 1399,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/968174/lenovo-loq-15arp9-83jc00ffmb-azerty.html",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "RAM": "16 GB",
+      "screen": "15,6 inch",
+      "storage": "512 GB",
+      "gpu": "NVIDIA Geforce RTX 4070",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "HP ProBook 4 G1i AI 16\" - B9YJ9ET Azerty",
+    "price": 1399,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/967134/hp-probook-4-g1i-ai-16-b9yj9et-azerty.html",
+    "specs": {
+      "processor": "Intel Core Ultra 7",
+      "RAM": "32 GB",
+      "screen": "16 inch",
+      "storage": "1 TB",
+      "gpu": "Intel Arc Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "HP OmniBook 5 Flip 14-fp0950nb Azerty",
+    "price": 879,
+    "reviews": 3,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/962803/hp-omnibook-5-flip-14-fp0950nb-azerty.html",
+    "specs": {
+      "processor": "Intel Core 5",
+      "RAM": "16 GB",
+      "screen": "14 inch",
+      "storage": "512 GB",
+      "gpu": "Intel Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "HP Pavilion SE 15-fd0979nb Azerty",
+    "price": 849,
+    "reviews": 1,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/958515/hp-pavilion-se-15-fd0979nb-azerty.html",
+    "specs": {
+      "processor": "Intel Core i7",
+      "RAM": "16 GB",
+      "screen": "15,6 inch",
+      "storage": "1 TB",
+      "gpu": "Intel Iris Xe Graphics",
+      "os": "Windows"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10 CPU/8 GPU) 16GB/256GB Middernacht AZERTY",
+    "price": 1099,
+    "reviews": 3,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961591/apple-macbook-air-13-inch-2025-m4-10-cpu-8-gpu-16gb-256gb-middernacht-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "256 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15 inch (2025) M4 (10 CPU/10 GPU) 16GB/256GB Middernacht AZERTY",
+    "price": 1389,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961627/apple-macbook-air-15-inch-2025-m4-10-cpu-10-gpu-16gb-256gb-middernacht-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "15,3 inch",
+      "storage": "256 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10 CPU/10 GPU) 16GB/512GB Middernacht AZERTY",
+    "price": 1339,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961595/apple-macbook-air-13-inch-2025-m4-10-cpu-10-gpu-16gb-512gb-middernacht-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "512 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10/8) 16GB/256GB Middernacht AZERTY + Magic Mouse",
+    "price": 1189,
+    "reviews": 1,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/969307/apple-macbook-air-13-inch-2025-m4-10-8-16gb-256gb-middernacht-azerty-magic-mouse.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "256 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10 CPU/8 GPU) 16GB/256GB Hemelsblauw AZERTY",
+    "price": 1099,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961592/apple-macbook-air-13-inch-2025-m4-10-cpu-8-gpu-16gb-256gb-hemelsblauw-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "256 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10 CPU/8 GPU) 16GB/256GB Sterrenlicht AZERTY",
+    "price": 1099,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961593/apple-macbook-air-13-inch-2025-m4-10-cpu-8-gpu-16gb-256gb-sterrenlicht-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "256 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10 core CPU/10 core GPU) 16GB/512G Zilver AZERTY",
+    "price": 1349,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961598/apple-macbook-air-13-inch-2025-m4-10-core-cpu-10-core-gpu-16gb-512g-zilver-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "512 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10 core CPU/8 core GPU) 16GB/256GB Zilver AZERTY",
+    "price": 1099,
+    "reviews": 0,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961594/apple-macbook-air-13-inch-2025-m4-10-core-cpu-8-core-gpu-16gb-256gb-zilver-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "256 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 inch (2025) M4 (10 CPU/10 GPU) 16GB/512GB Sterrenlicht AZERTY",
+    "price": 1369,
+    "reviews": 1,
+    "availability": "Morgen geleverd",
+    "detailUrl": "https://www.coolblue.be/nl/product/961597/apple-macbook-air-13-inch-2025-m4-10-cpu-10-gpu-16gb-512gb-sterrenlicht-azerty.html",
+    "specs": {
+      "processor": "Apple M4",
+      "RAM": "16 GB",
+      "screen": "13,6 inch",
+      "storage": "512 GB",
+      "gpu": "Apple M4",
+      "os": "macOS"
+    }
+  }
+]

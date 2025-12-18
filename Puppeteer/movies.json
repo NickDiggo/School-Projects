@@ -1,0 +1,362 @@
+[
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "durationMinutes": 152,
+    "rating": 9.1,
+    "link": "https://www.imdb.com/title/tt0468569/?ref_=chttp_t_1",
+    "genre": "action"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "durationMinutes": 148,
+    "rating": 8.8,
+    "link": "https://www.imdb.com/title/tt1375666/?ref_=chttp_t_2",
+    "genre": "action"
+  },
+  {
+    "title": "Gladiator",
+    "year": 2000,
+    "durationMinutes": 155,
+    "rating": 8.5,
+    "link": "https://www.imdb.com/title/tt0172495/?ref_=chttp_t_8",
+    "genre": "action"
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "durationMinutes": 140,
+    "rating": 8.5,
+    "link": "https://www.imdb.com/title/tt9362722/?ref_=chttp_t_10",
+    "genre": "action"
+  },
+  {
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "durationMinutes": 166,
+    "rating": 8.4,
+    "link": "https://www.imdb.com/title/tt15239678/?ref_=chttp_t_11",
+    "genre": "action"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "durationMinutes": 149,
+    "rating": 8.4,
+    "link": "https://www.imdb.com/title/tt4154756/?ref_=chttp_t_13",
+    "genre": "action"
+  },
+  {
+    "title": "Spider-Man: Een nieuw universum",
+    "year": 2018,
+    "durationMinutes": 117,
+    "rating": 8.4,
+    "link": "https://www.imdb.com/title/tt4633694/?ref_=chttp_t_14",
+    "genre": "action"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "durationMinutes": 164,
+    "rating": 8.4,
+    "link": "https://www.imdb.com/title/tt1345836/?ref_=chttp_t_16",
+    "genre": "action"
+  },
+  {
+    "title": "Old Boy",
+    "year": 2003,
+    "durationMinutes": 120,
+    "rating": 8.3,
+    "link": "https://www.imdb.com/title/tt0364569/?ref_=chttp_t_18",
+    "genre": "action"
+  },
+  {
+    "title": "1917",
+    "year": 2019,
+    "durationMinutes": 119,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt8579674/?ref_=chttp_t_23",
+    "genre": "action"
+  },
+  {
+    "title": "Dangal",
+    "year": 2016,
+    "durationMinutes": 161,
+    "rating": 8.3,
+    "link": "https://www.imdb.com/title/tt5074352/?ref_=chttp_t_24",
+    "genre": "action"
+  },
+  {
+    "title": "Batman Begins",
+    "year": 2005,
+    "durationMinutes": 140,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt0372784/?ref_=chttp_t_25",
+    "genre": "action"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "durationMinutes": 130,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt1745960/?ref_=chttp_t_28",
+    "genre": "action"
+  },
+  {
+    "title": "Kill Bill",
+    "year": 2003,
+    "durationMinutes": 111,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt0266697/?ref_=chttp_t_29",
+    "genre": "action"
+  },
+  {
+    "title": "Demon Slayer: Kimetsu No Yaiba the Movie: Infinity Castle",
+    "year": 2025,
+    "durationMinutes": 155,
+    "rating": 8.5,
+    "link": "https://www.imdb.com/title/tt32820897/?ref_=chttp_t_31",
+    "genre": "action"
+  },
+  {
+    "title": "V for Vendetta",
+    "year": 2005,
+    "durationMinutes": 132,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0434409/?ref_=chttp_t_32",
+    "genre": "action"
+  },
+  {
+    "title": "Warrior",
+    "year": 2011,
+    "durationMinutes": 140,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt1291584/?ref_=chttp_t_33",
+    "genre": "action"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "durationMinutes": 120,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt1392190/?ref_=chttp_t_34",
+    "genre": "action"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "durationMinutes": 148,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt10872600/?ref_=chttp_t_36",
+    "genre": "action"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "year": 2010,
+    "durationMinutes": 98,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0892769/?ref_=chttp_t_37",
+    "genre": "action"
+  },
+  {
+    "title": "Le Mans '66",
+    "year": 2019,
+    "durationMinutes": 152,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt1950186/?ref_=chttp_t_38",
+    "genre": "action"
+  },
+  {
+    "title": "Logan",
+    "year": 2017,
+    "durationMinutes": 137,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt3315342/?ref_=chttp_t_41",
+    "genre": "action"
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "year": 2003,
+    "durationMinutes": 143,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0325980/?ref_=chttp_t_42",
+    "genre": "action"
+  },
+  {
+    "title": "Maharaja",
+    "year": 2024,
+    "durationMinutes": 141,
+    "rating": 8.3,
+    "link": "https://www.imdb.com/title/tt26548265/?ref_=chttp_t_43",
+    "genre": "action"
+  },
+  {
+    "title": "The Incredibles",
+    "year": 2004,
+    "durationMinutes": 115,
+    "rating": 8,
+    "link": "https://www.imdb.com/title/tt0317705/?ref_=chttp_t_45",
+    "genre": "action"
+  },
+  {
+    "title": "Gekijô-ban Chensô Man Reze-hen",
+    "year": 2025,
+    "durationMinutes": 100,
+    "rating": 8.4,
+    "link": "https://www.imdb.com/title/tt30472557/?ref_=chttp_t_46",
+    "genre": "action"
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+    "year": 2020,
+    "durationMinutes": 117,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt11032374/?ref_=chttp_t_49",
+    "genre": "action"
+  },
+  {
+    "title": "Intouchables",
+    "year": 2011,
+    "durationMinutes": 112,
+    "rating": 8.5,
+    "link": "https://www.imdb.com/title/tt1675434/?ref_=chttp_t_3",
+    "genre": "comedy"
+  },
+  {
+    "title": "3 Idiots",
+    "year": 2009,
+    "durationMinutes": 170,
+    "rating": 8.4,
+    "link": "https://www.imdb.com/title/tt1187043/?ref_=chttp_t_9",
+    "genre": "comedy"
+  },
+  {
+    "title": "Toy Story 3",
+    "year": 2010,
+    "durationMinutes": 103,
+    "rating": 8.3,
+    "link": "https://www.imdb.com/title/tt0435761/?ref_=chttp_t_11",
+    "genre": "comedy"
+  },
+  {
+    "title": "Up",
+    "year": 2009,
+    "durationMinutes": 96,
+    "rating": 8.3,
+    "link": "https://www.imdb.com/title/tt1049413/?ref_=chttp_t_13",
+    "genre": "comedy"
+  },
+  {
+    "title": "Le fabuleux destin d'Amélie Poulain",
+    "year": 2001,
+    "durationMinutes": 122,
+    "rating": 8.3,
+    "link": "https://www.imdb.com/title/tt0211915/?ref_=chttp_t_14",
+    "genre": "comedy"
+  },
+  {
+    "title": "Snatch",
+    "year": 2000,
+    "durationMinutes": 104,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt0208092/?ref_=chttp_t_16",
+    "genre": "comedy"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "durationMinutes": 180,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt0993846/?ref_=chttp_t_17",
+    "genre": "comedy"
+  },
+  {
+    "title": "Green Book",
+    "year": 2018,
+    "durationMinutes": 130,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt6966692/?ref_=chttp_t_19",
+    "genre": "comedy"
+  },
+  {
+    "title": "Finding Nemo",
+    "year": 2003,
+    "durationMinutes": 100,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt0266543/?ref_=chttp_t_23",
+    "genre": "comedy"
+  },
+  {
+    "title": "Klaus",
+    "year": 2019,
+    "durationMinutes": 96,
+    "rating": 8.2,
+    "link": "https://www.imdb.com/title/tt4729430/?ref_=chttp_t_25",
+    "genre": "comedy"
+  },
+  {
+    "title": "Binnenstebuiten",
+    "year": 2015,
+    "durationMinutes": 95,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt2096673/?ref_=chttp_t_27",
+    "genre": "comedy"
+  },
+  {
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "year": 2017,
+    "durationMinutes": 115,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt5027774/?ref_=chttp_t_28",
+    "genre": "comedy"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "durationMinutes": 99,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt2278388/?ref_=chttp_t_31",
+    "genre": "comedy"
+  },
+  {
+    "title": "Ratatouille",
+    "year": 2007,
+    "durationMinutes": 111,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0382932/?ref_=chttp_t_33",
+    "genre": "comedy"
+  },
+  {
+    "title": "Monsters en Co.",
+    "year": 2001,
+    "durationMinutes": 92,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0198781/?ref_=chttp_t_34",
+    "genre": "comedy"
+  },
+  {
+    "title": "Relatos salvajes",
+    "year": 2014,
+    "durationMinutes": 122,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt3011894/?ref_=chttp_t_36",
+    "genre": "comedy"
+  },
+  {
+    "title": "Mary and Max",
+    "year": 2009,
+    "durationMinutes": 92,
+    "rating": 8.1,
+    "link": "https://www.imdb.com/title/tt0978762/?ref_=chttp_t_38",
+    "genre": "comedy"
+  },
+  {
+    "title": "Gekijô-ban Chensô Man Reze-hen",
+    "year": 2025,
+    "durationMinutes": 100,
+    "rating": 8.4,
+    "link": "https://www.imdb.com/title/tt30472557/?ref_=chttp_t_42",
+    "genre": "comedy"
+  }
+]

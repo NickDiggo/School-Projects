@@ -1,0 +1,23 @@
+[
+  { "author": "Linus Torvalds", "text": "Talk is cheap. Show me the code." },
+  { "author": "Grace Hopper", "text": "The most dangerous phrase in the language is: 'We've always done it this way.'" },
+  { "author": "Donald Knuth", "text": "Premature optimization is the root of all evil." },
+  { "author": "Steve Jobs", "text": "Innovation distinguishes between a leader and a follower." },
+  { "author": "Bill Gates", "text": "Your most unhappy customers are your greatest source of learning." },
+  { "author": "Alan Turing", "text": "We can only see a short distance ahead, but we can see plenty there that needs to be done." },
+  { "author": "Edsger W. Dijkstra", "text": "Simplicity is a great virtue but it requires hard work to achieve it." },
+  { "author": "Bjarne Stroustrup", "text": "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows your whole leg off." },
+  { "author": "Ken Thompson", "text": "One of my most productive days was throwing away 1000 lines of code." },
+  { "author": "Dennis Ritchie", "text": "The only way to learn a new programming language is by writing programs in it." },
+  { "author": "Brian Kernighan", "text": "Debugging is twice as hard as writing the code in the first place." },
+  { "author": "Jeff Atwood", "text": "Code is like humor. When you have to explain it, it’s bad." },
+  { "author": "Martin Fowler", "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." },
+  { "author": "Robert C. Martin", "text": "Clean code always looks like it was written by someone who cares." },
+  { "author": "John Romero", "text": "You might not think that programmers are artists, but programming is an extremely creative profession." },
+  { "author": "Guido van Rossum", "text": "Code is read much more often than it is written." },
+  { "author": "Marissa Mayer", "text": "Geeks are people who love something so much that all the details matter." },
+  { "author": "Larry Wall", "text": "The three great virtues of a programmer: laziness, impatience, and hubris." },
+  { "author": "Paul Graham", "text": "Good hackers find it unbearable to use bad tools." },
+  { "author": "Elon Musk", "text": "When something is important enough, you do it even if the odds are not in your favor." },
+  { "author": "Margaret Hamilton", "text": "There was no choice but to be pioneers; no one had ever done software like this before." }
+]

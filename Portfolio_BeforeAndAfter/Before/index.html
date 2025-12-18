@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="My portfolio page." />
+    <meta
+      name="keywords"
+      content="html, css, text, images, tables, grid, flexbox, bootstrap, git"
+    />
+    <title>portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  </head>
+  <body class="bg-black">
+    <header class="header">
+      <a href="#" class="naam"><span>Nick Tuymans</span></a>
+
+      <ul class="links-header mt-3">
+        <li>
+          <a href="index.html">Over&nbsp;mij</a>
+        </li>
+
+        <li>
+          <a href="#cv">CV</a>
+        </li>
+
+        <li>
+          <a href="#projecten">Projecten</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <i class="fa-solid fa-bars" id="navbar"></i>
+      <a href="https://github.com/NickDiggo" class="knop1" target="_blank"
+        >Github</a
+      >
+      <a
+        href="https://linkedin.com/in/nick-tuymans-143b93333"
+        class="knop1"
+        target="_blank"
+        >LinkedIn</a
+      >
+    </header>
+
+    <main class="hero" id="index.html">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 m-0">
+          <div class="col-12 col-sm-12 col-lg-6">
+            <img
+              src="img/foto_homepage.jpg"
+              class="d-block mx-lg-auto img-fluid foto-homepage rounded-circle align-content-center"
+              alt="een foto van mezelf"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+          </div>
+          <div class="col text-light mt-5 pt-5">
+            <h3>Hallo, ik ben</h3>
+
+            <h1 class="hero-text"><strong>Nick&nbsp;Tuymans</strong></h1>
+
+            <p class="mt-4">
+              Na tien jaar ervaring als monteur bij een busbedrijf heb ik de
+              kans gekregen om mijn passie te volgen en creatief aan de slag te
+              gaan in de&nbsp;IT-&nbsp;sector.<br /><br />
+              Ik volg momenteel een opleiding tot programmeur/web developer,
+              waarin ik werk met C#, HTML5 en QSL. In mijn vrije tijd ben ik
+              bezig met het leren van Blender, een vervolg op mijn eerdere
+              ervaring met Cinema 4D.<br /><br />Wanneer ik niet aan mijn
+              studies werk, ontspan ik met darts en ben ik actief bezig met
+              games, waaruit ik veel inspiratie haal om zelf kleine programma's
+              te schrijven erover die toepasbaar zijn.<br /><br />Dit alles
+              gebeurt meestal onder het oplettende oog van mijn twee Maine
+              Coons, die af en toe voor de nodige afleiding zorgen.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button
+                type="button"
+                class="btn btn-dark btn-lg px-4 me-md-2 knop-hero rounded-pill"
+              >
+                Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container align-items-center">
+        <div class="text-white">
+          <h3 class="text-center mb-5"><strong>Interesses</strong></h3>
+
+          <p class="text-white mb-2 mt-4">
+            Ik hou van verschillende tv-shows die me aan het nadenken zetten.
+            Darts is er een van. ik vind het geweldig om de spanning van de
+            wedstrijden te zien en hoe vaardig de spelers zijn. Het is een sport
+            waarbij je moet nadenken en altijd vooruit moet denken. Ook speel ik
+            het zelf regelmatig als ontspanning en omdat het een goede manier is
+            om je verstand sherp te houden.
+          </p>
+          <p class="text-white">
+            Verder kijk ik ook graag naar andere TV series die me laten
+            nadenken, House M.D. is ook een favoriet van me. Ik vind het
+            fascinerend hoe het team medische mysteries oplost en hoe ieders
+            karakter zich ontwikkelt. <br />Lucifer is weer heel anders, maar
+            het heeft een leuke mix van drama en humor, en ik geniet van de
+            unieke kijk op goed en kwaad. <br />En dan is er nog Suits. Die
+            serie heeft slimme dialogen en spannende juridische strijd, wat me
+            altijd geboeid houdt.
+          </p>
+
+          <div class="carrousel mx-auto">
+            <div class="slides">
+              <img
+                src="img/darts.jpg"
+                alt="foto van 'world championship darts'"
+                class="foto-serie"
+              />
+              <img
+                src="img/house.jpg"
+                alt="foto van de serie 'House M.D.'"
+                class="foto-serie"
+              />
+              <img
+                src="img/lucifer.jpg"
+                alt="foto van de serie'Lucifer'"
+                class="foto-serie"
+              />
+              <img
+                src="img/suits.jpg"
+                alt="foto van de serie 'Suits'"
+                class="foto-serie"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="cv">
+      <h2 class="text-center text-white mb-5">
+        <strong>Curriculum Vitae</strong>
+      </h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="fa-solid fa-school"></i>
+                <h2 class="card-subtitle mb-2 text-body-secondary">
+                  Opleiding
+                </h2>
+                <p class="card-text">
+                  2006-2012: Elektrische installatietechnieken
+                  Sint-Lambertusinstituut Heist-op-den-berg
+                </p>
+
+                <p class="card-text">
+                  2013: Cursus Monteur technische automatisering via VDAB
+                </p>
+
+                <p class="card-text">
+                  2024 - heden: Graduaat programmeren<br />Thomas More Geel
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="fa-solid fa-briefcase"></i>
+                <h2 class="card-subtitle mb-2 text-body-secondary">
+                  Werkervaring
+                </h2>
+                <p class="card-text">2012: Operator bij P en G</p>
+                <p>2013: Orderpicker bij Nova veg logistics via randstad</p>
+
+                <p class="card-text">
+                  2013: Arbeider metaalbouw bij Geert Verstraeten
+                </p>
+
+                <p class="card-text">
+                  2013 - 2024: Monteur elektriciteitskasten<br />Van Hool
+                  Koningshooikt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="fa-solid fa-web-awesome mt-3"></i>
+                <h2 class="card-subtitle mb-4 text-body-secondary">
+                  Competenties
+                </h2>
+                <p class="card-text gap mb-3">Klantgericht</p>
+                <p class="card-text gap mb-3">Altijd bereid om bij te leren</p>
+                <p class="card-text gap mb-3">
+                  Al van kleins af aan met computers gewerkt zowel hardware als
+                  software.
+                </p>
+                <p class="card-text gap mb-3">Zelfstandig</p>
+                <p class="card-text gap mb-3">Kort en bondig</p>
+                <p class="card-text gap mb-3">Levert geen half werk af</p>
+                <p class="card-text gap mb-3">Oplossingsgericht</p>
+                <p class="card-text gap mb-3">Goed in samenwerken</p>
+                <p class="card-text gap mb-3">Creatief</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md mb-3">
+            <div class="card h-100">
+              <div class="card-body m-0 p-0">
+                <table class="table">
+                  <caption class="caption-top text-center mt-3 pt-0">
+                    <i class="fa-solid fa-file"></i>
+                    <h2 class="card-subtitle mb-2 text-body-secondary mt">
+                      Skills
+                    </h2>
+                  </caption>
+
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">Nederlands&nbsp;</p>
+                    </td>
+                    <td class="text-start pt-2 p-0" style="border-bottom: none">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </td>
+                  </tr>
+
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">Engels&nbsp;</p>
+                    </td>
+                    <td class="text-start pt-2 p-0" style="border-bottom: none">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </td>
+                  </tr>
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">Word&nbsp;</p>
+                    </td>
+                    <td class="text-start pt-2 p-0" style="border-bottom: none">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </td>
+                  </tr>
+
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">Exel&nbsp;</p>
+                    </td>
+                    <td class="text-start pt-2 p-0" style="border-bottom: none">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </td>
+                  </tr>
+
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">Powerpoint&nbsp;</p>
+                    </td>
+                    <td class="text-start pt-2 p-0" style="border-bottom: none">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </td>
+                  </tr>
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">Blender-C4D&nbsp;</p>
+                    </td>
+                    <td class="text-start pt-2 p-0" style="border-bottom: none">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </td>
+                  </tr>
+
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">C#&nbsp;</p>
+                    </td>
+                    <td class="text-start pt-2 p-0" style="border-bottom: none">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </td>
+                  </tr>
+                  <tr class="text-center">
+                    <td class="text-start" style="border-bottom: none">
+                      <p class="card-text m-2">HTML5&nbsp;</p>
+                    </td>
+                    <td
+                      class="text-start pt-2 p-0 m-0"
+                      style="border-bottom: none"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container text-center projecten" id="projecten">
+      <h2 class="text-center text-white mb-5">
+        <strong>Mijn projecten</strong>
+      </h2>
+
+      <div class="row align-content-center">
+        <div class="col-md-6 p-0 mt-2">
+          <div class="card h-100 kaart">
+            <img
+              src="img/project1.png"
+              class="card-img-top foto-project1"
+              alt="dit is een foto van mijn eerste website"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mijn website</h5>
+              <p class="card-text m-3">Deze website was mijn eerste project.</p>
+              <p class="card-text">
+                Dit was een goede oefening om verschillende methoden van stylen
+                uit te proberen.<br />En het heeft me leren werken met zowel
+                bootstrap als een beetje met javascript.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0 mt-2">
+          <div class="card h-100 kaart">
+            <img
+              src="img/jpegCode.jpeg"
+              class="card-img-top foto-project2"
+              alt="Dit is een foto van code."
+            />
+            <div class="card-body">
+              <h5 class="card-title">C# turn based combat game</h5>
+              <p class="card-text">
+                Dit is een simpele turn based combat game gemaakt in C#.
+              </p>
+              <p>
+                Dit project heeft me geleerd verder na te denken over C#
+                code.<br />En zo heb ik mezelf wat beter leren methodes
+                aanmaken.
+              </p>
+              <p>
+                Momenteel ben ik er nog volop mee bezig <br />om het verder uit
+                te werken dus momenteel<br />is dit een placeholder.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-white"><strong>Contact</strong></h2>
+        <div class="d-flex align-items-center mt-0 pt-0">
+          <img src="img/e-mail.png" alt="foto van een email" class="mx-auto" />
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+              <div class="card-body bg-light">
+                <div class="container">
+                  <form
+                    method="post"
+                    action="https://tm-statweb.be/sendmail.php"
+                  >
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="name">Voornaam*</label>
+                          <input
+                            id="name"
+                            type="text"
+                            name="name"
+                            class="form-control"
+                            placeholder="Voornaam"
+                            required="required"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="achternaam">achternaam*</label>
+                          <input
+                            id="achternaam"
+                            type="text"
+                            name="achternaam"
+                            class="form-control"
+                            placeholder="Achternaam"
+                            required="required"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="email">E-mail*</label>
+                          <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="E-mail"
+                            required="required"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="onderwerp">Onderwerp*</label>
+                          <input
+                            id="onderwerp"
+                            type="text"
+                            name="onderwerp"
+                            class="form-control"
+                            placeholder="Onderwerp"
+                            required="required"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 m-2">
+                        <div class="form-group">
+                          <label for="bericht">Bericht*</label>
+                          <textarea
+                            id="bericht"
+                            name="bericht"
+                            class="form-control"
+                            placeholder="Schrijf hier je bericht."
+                            rows="4"
+                            required="required"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      name="studentemail"
+                      value="r0333915@student.thomasmore.be"
+                    />
+                    <div>
+                      <div>
+                        <input
+                          type="submit"
+                          value="Verstuur"
+                          class="btn btn-dark mt-3 mb-5"
+                        />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center">
+      <ul class="list-unstyled">
+        <li class="m-2">
+          <a href="#index.html">Over&nbsp;mij</a>
+        </li>
+
+        <li class="m-2">
+          <a href="#cv">CV</a>
+        </li>
+
+        <li class="m-2">
+          <a href="#projecten">Projecten</a>
+        </li>
+
+        <li class="m-2">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="mb-0">&copy; Copyright Tuymans Nick - 2024</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
