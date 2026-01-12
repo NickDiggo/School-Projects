@@ -1,0 +1,90 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String    @id @unique @default(uuid()) @db.Uuid
+  email    String    @unique @db.VarChar(255)
+  password String
+  username String
+  role     Role      @default(User)
+  Comment  Comment[]
+  maps     Map[]
+  memos    Memo[]
+  sessions Session[]
+}
+
+model Session {
+  id          String   @id @unique @default(uuid()) @db.Uuid
+  activeFrom  DateTime @default(now())
+  activeUntil DateTime
+  userId      String   @db.Uuid
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Memo {
+  id        String    @id @default(uuid()) @db.Uuid
+  title     String
+  content   String?
+  createdAt DateTime  @default(now())
+  userId    String    @db.Uuid
+  mapId     String    @db.Uuid
+  comments  Comment[]
+  images    Image[]
+  map       Map       @relation(fields: [mapId], references: [id])
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  memoTags  MemoTag[]
+}
+
+model Comment {
+  id        String   @id @default(uuid()) @db.Uuid
+  content   String
+  createdAt DateTime @default(now())
+  memoId    String   @db.Uuid
+  userId    String   @db.Uuid
+  memo      Memo     @relation(fields: [memoId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Image {
+  id          String   @id @default(uuid()) @db.Uuid
+  url         String
+  description String?
+  createdAt   DateTime @default(now())
+  memoId      String   @db.Uuid
+  memo        Memo     @relation(fields: [memoId], references: [id], onDelete: Cascade)
+}
+
+model Tag {
+  id       String    @id @default(uuid()) @db.Uuid
+  name     String    @unique
+  memoTags MemoTag[]
+}
+
+model MemoTag {
+  id     String @id @default(uuid()) @db.Uuid
+  memoId String @db.Uuid
+  tagId  String @db.Uuid
+  memo   Memo   @relation(fields: [memoId], references: [id], onDelete: Cascade)
+  tag    Tag    @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@unique([memoId, tagId])
+}
+
+model Map {
+  id     String  @id @default(uuid()) @db.Uuid
+  name   String
+  userId String? @db.Uuid
+  user   User?   @relation(fields: [userId], references: [id])
+  memos  Memo[]
+}
+
+enum Role {
+  User
+}
