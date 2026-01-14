@@ -1,19 +1,32 @@
-//src/dal/maps.ts
-
 import 'server-only'
-import {prismaClient} from './prismaClient'
-import type {Map} from '@/generated/prisma/client'
 
-//mss nog voor later (persoonlijke maps)
-// export function getMapsByUser(userId: string): Promise<Map[]> {
-//   return prismaClient.map.findMany({
-//     where: {userId},
-//     orderBy: {name: 'asc'},
-//   })
-// }
+//src/dal/maps.ts
+import type {Tag} from '@/generated/prisma/client'
+import {prismaClient} from '@/dal/prismaClient'
 
-export function getMaps(): Promise<Map[]> {
+export async function getMaps(): Promise<Tag[]> {
   return prismaClient.map.findMany({
     orderBy: {name: 'asc'},
   })
+}
+
+export async function getMapsByUserId(userId: string): Promise<Tag[]> {
+  return prismaClient.map.findMany({
+    where: {userId: userId},
+    orderBy: {name: 'asc'},
+  })
+}
+
+export async function createMap({name, userId}: {name: string; userId: string}) {
+  return prismaClient.map.create({
+    data: {name, userId},
+  })
+}
+
+export async function updateMap({id, name}: {id: string; name: string; userId: string}) {
+  return prismaClient.map.update({where: {id}, data: {name}})
+}
+
+export async function deleteMap(id: string, userId: string): Promise<void> {
+  await prismaClient.map.delete({where: {id, userId}})
 }

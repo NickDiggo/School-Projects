@@ -2,12 +2,12 @@
 'use client'
 
 import type {FunctionComponent, ChangeEvent} from 'react'
-import {useTransition} from 'react'
+
 import {Button} from '@/components/ui/button'
 import {Textarea} from '@/components/ui/textarea'
 import {Input} from '@/components/ui/input'
 import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card'
-import {ImagePlus, Plus} from 'lucide-react'
+import {ImagePlus} from 'lucide-react'
 import {useZodValidatedForm} from '@/lib/useZodValidatedForm'
 import {useFieldArray} from 'react-hook-form'
 import Form from '@/components/custom/form'

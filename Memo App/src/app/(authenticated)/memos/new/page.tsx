@@ -1,19 +1,20 @@
 //src/app/(authenticated)/new/page.tsx
 
-import type React from 'react'
-
 import type {FunctionComponent} from 'react'
 
 import CreateMemoForm from '@/components/custom/createMemoForm'
-import {getTags} from '@/dal/tags'
-import {getMaps} from '@/dal/maps'
+import {getTagsByUser} from '@/dal/tags'
+import {getMapsByUserId} from '@/dal/maps'
 import {Navigation} from '@/components/navigation'
 import Link from 'next/link'
 import {ArrowLeft} from 'lucide-react'
+import {getSessionProfileFromCookieOrThrow} from '@/lib/sessionUtils'
+
+export const dynamic = 'force-dynamic'
 
 const NewMemoPage: FunctionComponent = async () => {
-  // const profile = await getSessionProfileFromCookieOrThrow()
-  const [tags, maps] = await Promise.all([getTags(), getMaps()])
+  const profile = await getSessionProfileFromCookieOrThrow()
+  const [tags, maps] = await Promise.all([getTagsByUser(profile.id), getMapsByUserId(profile.id)])
 
   return (
     <>

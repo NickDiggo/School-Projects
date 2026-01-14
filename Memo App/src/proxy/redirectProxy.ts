@@ -20,7 +20,8 @@ const protectedRoutes = new Set<string>([
   '/memos',
   '/memos/new',
   '/memos/:param',
-  '/memos/:param/edit',
+  '/memos/:param/bewerken',
+  '/memos/editTagsAndFolders',
 ])
 
 const publicRedirects: Record<string, string> = {

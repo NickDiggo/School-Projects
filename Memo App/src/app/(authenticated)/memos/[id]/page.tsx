@@ -1,15 +1,14 @@
 // src/app/(authenticated)/memos/[id]/page.tsx
 import type {FunctionComponent} from 'react'
 import Link from 'next/link'
-import {Button} from '@/components/ui/button'
 import {ArrowLeft} from 'lucide-react'
 import {getMemoById} from '@/dal/memos'
 import {getSessionProfileFromCookieOrThrow} from '@/lib/sessionUtils'
 import {Navigation} from '@/components/navigation'
 import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card'
-import {Calendar, FolderOpen, MessageSquare} from 'lucide-react'
+import {Calendar, FolderOpen} from 'lucide-react'
 import {MemoActies} from '@/components/custom/memoActies'
-import MemoModals from '@/app/(authenticated)/memos/[id]/memoForm'
+import MemoModals from '@/components/custom/memoForm'
 
 // UUID validatie om errors in DAL te voorkomen
 function isValidUUID(id: string) {

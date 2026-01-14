@@ -2,10 +2,11 @@
 'use server'
 
 import {redirect} from 'next/navigation'
-import {createMemo, deleteMemo, getMemosByUser, updateMemo} from '@/dal/memos'
+import {createMemo, deleteMemo, updateMemo} from '@/dal/memos'
 import {protectedFormAction, protectedServerFunction} from '@/lib/serverFunctions'
 import {createMemoSchema, deleteMemoSchema, updateMemoSchema} from '@/schemas/memoSchemas'
 import {uploadImageToSupabase} from '@/lib/supaImageUpload'
+// import {deleteImagesByUrls} from '@/lib/supaImageDelete'
 
 export const uploadMemoImage = async ({file}: {file: File}) => {
   return uploadImageToSupabase({file})

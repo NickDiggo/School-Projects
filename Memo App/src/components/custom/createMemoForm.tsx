@@ -1,14 +1,12 @@
-//src/components/custom/createMemoForm.tsx
 'use client'
 
 import type {ChangeEvent, FunctionComponent} from 'react'
 import {useState} from 'react'
 import {Button} from '@/components/ui/button'
 import {Textarea} from '@/components/ui/textarea'
-import {Input} from '@/components/ui/input'
 import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card'
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from '@/components/ui/select'
-import {ImagePlus, Plus, X} from 'lucide-react'
+import {ImagePlus, X} from 'lucide-react'
 import {useFieldArray, useWatch} from 'react-hook-form'
 
 import Form from '@/components/custom/form'
@@ -16,7 +14,7 @@ import SubmitButtonWithLoading from '@/components/custom/submitButtonWithLoading
 import {useZodValidatedForm} from '@/lib/useZodValidatedForm'
 import {createMemoSchema} from '@/schemas/memoSchemas'
 import {createMemoAction, uploadMemoImage} from '@/serverFunctions/memos'
-import type {Tag, Map} from '@/generated/prisma/client'
+import type {Map, Tag} from '@/generated/prisma/client'
 import FormError from '@/components/custom/formError'
 import FormInput from '@/components/custom/formInput'
 
@@ -26,6 +24,7 @@ interface CreateMemoFormProps {
 }
 
 const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) => {
+  // === Form setup met Zod validatie ===
   const [form, createMemo] = useZodValidatedForm(createMemoSchema, createMemoAction, {
     defaultValues: {
       tagIds: [],
@@ -33,11 +32,14 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
     },
   })
 
+  // === State voor tag dropdown selectie ===
   const [tagSelectValue, setTagSelectValue] = useState<string>('')
 
+  // === React Hook Form watch voor tagIds ===
   const watchTagIds = useWatch({control: form.control, name: 'tagIds'})
   const selectedTagIds = Array.isArray(watchTagIds) ? watchTagIds : []
 
+  // Beschikbare tags voor dropdown (niet geselecteerde)
   const availableTags = tags.filter(tag => !selectedTagIds.includes(tag.id))
 
   const addTag = (tagId: string) => {
@@ -53,7 +55,7 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
     )
   }
 
-  // === FieldArray voor images ===
+  // === FieldArray voor afbeeldingen ===
   const images = useFieldArray({
     control: form.control,
     name: 'imageUrls',
@@ -73,18 +75,17 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
   return (
     <Form hookForm={form} action={createMemo}>
       <div className="space-y-6 max-w-4xl mx-auto">
-        {/* Memo */}
+        {/* ================= Memo Section ================= */}
         <Card>
           <CardHeader>
             <CardTitle>Memo gegevens</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <FormInput {...form.register('title')} placeholder="Titel" />
-
             <Textarea {...form.register('content')} placeholder="Inhoud (optioneel)" rows={5} />
             <FormError path="content" />
 
-            {/* Map */}
+            {/* Map select */}
             <Select {...form.register('mapId')} onValueChange={value => form.setValue('mapId', value)}>
               <SelectTrigger>
                 <SelectValue placeholder="Selecteer map" />
@@ -101,8 +102,9 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
             <FormError path="mapId" />
           </CardContent>
         </Card>
+        {/* ================= Einde Memo Section ================= */}
 
-        {/* Tags */}
+        {/* ================= Tags Section ================= */}
         <Card>
           <CardHeader>
             <CardTitle>Tags</CardTitle>
@@ -126,13 +128,13 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
                 ))}
               </SelectContent>
             </Select>
+
             {/* Hidden inputs voor react-hook-form */}
             {selectedTagIds.map((id, index) => (
               <input key={id} type="hidden" {...form.register(`tagIds.${index}`)} value={id} />
             ))}
 
             {/* Geselecteerde tags */}
-
             {selectedTagIds.length > 0 && (
               <div className="flex flex-wrap gap-2">
                 {selectedTagIds.map(tagId => {
@@ -152,7 +154,9 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
             )}
           </CardContent>
         </Card>
-        {/* Images */}
+        {/* ================= Einde Tags Section ================= */}
+
+        {/* ================= Images Section ================= */}
         <Card>
           <CardHeader className="flex items-center justify-between">
             <CardTitle>Afbeeldingen</CardTitle>
@@ -185,7 +189,6 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
                       className="object-cover w-full h-full"
                     />
                     <input type="hidden" {...form.register(`imageUrls.${index}.url`)} />
-
                     <input type="hidden" {...form.register(`imageUrls.${index}.description`)} />
                     <Button
                       type="button"
@@ -207,10 +210,13 @@ const CreateMemoForm: FunctionComponent<CreateMemoFormProps> = ({tags, maps}) =>
             )}
           </CardContent>
         </Card>
+        {/* ================= Einde Images Section ================= */}
 
+        {/* Submit button */}
         <SubmitButtonWithLoading text="Memo aanmaken" loadingText="Bezig met opslaan..." />
       </div>
     </Form>
   )
 }
+
 export default CreateMemoForm

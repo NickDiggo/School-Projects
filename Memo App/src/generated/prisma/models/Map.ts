@@ -8,7 +8,7 @@
  *
  * 🟢 You can import this file directly.
  */
-import type * as runtime from "@prisma/client/runtime/library"
+import type * as runtime from "@prisma/client/runtime/client"
 import type * as $Enums from "../enums"
 import type * as Prisma from "../internal/prismaNamespace"
 
@@ -180,6 +180,7 @@ export type MapOrderByWithRelationInput = {
 
 export type MapWhereUniqueInput = Prisma.AtLeast<{
   id?: string
+  userId_name?: Prisma.MapUserIdNameCompoundUniqueInput
   AND?: Prisma.MapWhereInput | Prisma.MapWhereInput[]
   OR?: Prisma.MapWhereInput[]
   NOT?: Prisma.MapWhereInput | Prisma.MapWhereInput[]
@@ -187,7 +188,7 @@ export type MapWhereUniqueInput = Prisma.AtLeast<{
   userId?: Prisma.UuidNullableFilter<"Map"> | string | null
   user?: Prisma.XOR<Prisma.UserNullableScalarRelationFilter, Prisma.UserWhereInput> | null
   memos?: Prisma.MemoListRelationFilter
-}, "id">
+}, "id" | "userId_name">
 
 export type MapOrderByWithAggregationInput = {
   id?: Prisma.SortOrder
@@ -265,6 +266,11 @@ export type MapOrderByRelationAggregateInput = {
 export type MapScalarRelationFilter = {
   is?: Prisma.MapWhereInput
   isNot?: Prisma.MapWhereInput
+}
+
+export type MapUserIdNameCompoundUniqueInput = {
+  userId: string
+  name: string
 }
 
 export type MapCountOrderByAggregateInput = {

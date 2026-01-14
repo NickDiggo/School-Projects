@@ -13,13 +13,7 @@ password : Test123!
 
 !!!docker container : PE-BE gebruiken niet PE!!!!
 
-- !!! indien ik nog redundant code van firebase tegenkom die ik gemist heb deze verwijderen!!!
-  (kan mss later nog terug geimplementeerd worden)
-- file path bovenaan de pagina zetten in comments zoals huidige code (om verdere problemen te vermijden bij navigeren via navigatiebalk)
-- mapstructuur verder aanpassen naar de lesvoorbeelden
-- verkeerde startbestanden nachecken en desnoods naar het laatste lesvoorbeeld om te zetten
-- details memo bekijken en memo's bewerken verder uit werken
-- daarna de rest
+-crud operaties voor mappen tags!!!
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZQkUYFyq)
 

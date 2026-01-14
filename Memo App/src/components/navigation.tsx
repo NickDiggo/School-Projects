@@ -2,7 +2,7 @@
 
 import {usePathname} from 'next/navigation'
 import Link from 'next/link'
-import {Home, PlusCircle, LogOut} from 'lucide-react'
+import {Home, PlusCircle, LogOut, Folder} from 'lucide-react'
 import {cn} from '@/lib/utils'
 import {signOutServerFunction} from '@/serverFunctions/users' // Pas dit pad aan naar jouw users.ts
 import {useTransition} from 'react'
@@ -14,6 +14,7 @@ export function Navigation() {
   const navItems = [
     {href: '/memos', label: 'Home', icon: Home},
     {href: '/memos/new', label: 'Nieuwe Memo', icon: PlusCircle},
+    {href: '/memos/editTagsAndFolders', label: 'map en tag beheer', icon: Folder},
   ] as const
 
   const handleLogout = () => {

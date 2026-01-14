@@ -1,6 +1,7 @@
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider   = "prisma-client"
+  engineType = "client"
+  output     = "../src/generated/prisma"
 }
 
 datasource db {
@@ -37,7 +38,7 @@ model Memo {
   mapId     String    @db.Uuid
   comments  Comment[]
   images    Image[]
-  map       Map       @relation(fields: [mapId], references: [id])
+  map       Map       @relation(fields: [mapId], references: [id], onDelete: Restrict)
   user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   memoTags  MemoTag[]
 }
@@ -64,7 +65,10 @@ model Image {
 model Tag {
   id       String    @id @default(uuid()) @db.Uuid
   name     String    @unique
+  userId   String?   @db.Uuid
   memoTags MemoTag[]
+
+  @@unique([userId, name])
 }
 
 model MemoTag {
@@ -83,6 +87,8 @@ model Map {
   userId String? @db.Uuid
   user   User?   @relation(fields: [userId], references: [id])
   memos  Memo[]
+
+  @@unique([userId, name])
 }
 
 enum Role {

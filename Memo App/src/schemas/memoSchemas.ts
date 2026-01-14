@@ -8,9 +8,9 @@ export const memoImageSchema = z.object({
 
 export const memoSchema = z.object({
   id: z.uuid(),
-  title: z.string().min(5, 'The title must be at least 5 characters long'),
+  title: z.string().min(5, 'The title must be at least 5 characters long.'),
   content: z.string().nullable().optional(),
-  mapId: z.string(),
+  mapId: z.string('Map is required.'),
   tagIds: z.array(z.string()).optional().nullable(),
   imageUrls: z.array(memoImageSchema).optional(),
 })

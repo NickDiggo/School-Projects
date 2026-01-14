@@ -5,21 +5,15 @@ import {MemoCard} from '@/components/custom/memo-card'
 import {FolderOpen} from 'lucide-react'
 import {getMemosByUser} from '@/dal/memos'
 import {getSessionProfileFromCookieOrThrow} from '@/lib/sessionUtils'
-import {getMaps} from '@/dal/maps'
-import {redirect} from 'next/navigation'
+import {getMapsByUserId} from '@/dal/maps'
 
 export default async function MemosPage() {
-  let profile
-  try {
-    profile = await getSessionProfileFromCookieOrThrow()
-  } catch {
-    redirect('/login')
-  }
+  const profile = await getSessionProfileFromCookieOrThrow()
 
   const userId = profile.id
 
   const memos = await getMemosByUser(userId)
-  const folders = await getMaps()
+  const folders = await getMapsByUserId(profile.id)
 
   return (
     <div className="min-h-screen bg-background">
