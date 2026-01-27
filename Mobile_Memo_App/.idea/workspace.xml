@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59525269-180c-409d-82ee-4979a4fd13e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Memo App/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/PE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/eslint.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/logs/backend.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/next.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/migrations/20251109100429_added_users_and_sessions/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/migrations/20251220225229_init/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/migrations/20251220233309_init/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/migrations/20260110161426_schema_changes/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/migrations/20260113150336_tag_user_id_added/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/migrations/20260113224030_unique_constraints_added_on_map_and_tag/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/migrations/migration_lock.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/seed.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/seedDev.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/prisma/seedProd.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/(authenticated)/memos/[id]/bewerken/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/(authenticated)/memos/[id]/memoForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/(authenticated)/memos/[id]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/(authenticated)/memos/editTagsAndFolders/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/(authenticated)/memos/new/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/(authenticated)/memos/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/auth/register/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/auth/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/comments/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/maps/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/memos/[id]/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/memos/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/supabaseClient.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/api/tags/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/login/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/app/register/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/actionButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/createMemoForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/editMemoForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/formError.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/formInput.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/login-form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/mapsList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/memo-card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/memoActies.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/memoForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/submitButtonWithLoading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/custom/tagsList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/navigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/alert-dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/components/ui/textarea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/dal/comments.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/dal/maps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/dal/memos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/dal/prismaClient.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/dal/tags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/dal/users.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/browser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/commonInputTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/enums.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/internal/class.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/internal/prismaNamespace.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/internal/prismaNamespaceBrowser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/Comment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/Image.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/Map.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/Memo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/MemoTag.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/Session.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/Tag.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/models/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/query_engine-windows.dll.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/query_engine-windows.dll.node.tmp11036" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/query_engine-windows.dll.node.tmp15224" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/query_engine-windows.dll.node.tmp22792" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/query_engine-windows.dll.node.tmp25908" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/query_engine-windows.dll.node.tmp2640" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/generated/prisma/query_engine-windows.dll.node.tmp28136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/instrumentation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/apiRoute.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/convertFormData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/jwtUtils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/passwordUtils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/routeResponses.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/serverFunctions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/sessionUtils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/supaImageDelete.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/supaImageUpload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/useCookie.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/useZodValidatedForm.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/lib/validateSchema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/models/apiRoute.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/models/memos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/models/serverFunctions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/models/users.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/proxy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/proxy/corsProxy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/proxy/loggingProxy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/proxy/redirectProxy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/proxy/sessionManagementProxy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/proxy/withProxy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/schemas/commentSchemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/schemas/mapSchemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/schemas/memoSchemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/schemas/tagSchemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/schemas/userSchemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/serverFunctions/comments.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/serverFunctions/maps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/serverFunctions/memos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/serverFunctions/tags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/src/serverFunctions/users.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memo App/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NickDiggo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NickDiggo/School-Projects.git",
+    "accountId": "406c0f68-228e-46ad-839d-09a33492d93f"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="366vVjrorZMzJhKcivnUhLijwUg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\MD\\pe\\node_modules\\prettier",
+    "ts.external.directory.path": "C:\\Users\\tuyma\\OneDrive\\Bureaublad\\GP 2025-2026\\Git_Repository\\Mobile_Memo_App\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MD\pe" />
+      <recent name="C:\MD\pe\app\(authenticated)\memos" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59525269-180c-409d-82ee-4979a4fd13e8" name="Changes" comment="" />
+      <created>1764339863029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764339863029</updated>
+      <workItem from="1764339864029" duration="5688000" />
+      <workItem from="1768249643034" duration="5000" />
+      <workItem from="1768249664304" duration="3344000" />
+      <workItem from="1768253403925" duration="781000" />
+      <workItem from="1768254213665" duration="3881000" />
+      <workItem from="1768307035470" duration="4662000" />
+      <workItem from="1768392817744" duration="2720000" />
+      <workItem from="1768401887881" duration="4766000" />
+      <workItem from="1768407445193" duration="32825000" />
+      <workItem from="1768463172688" duration="19637000" />
+      <workItem from="1768509290341" duration="7180000" />
+      <workItem from="1768759942073" duration="7467000" />
+      <workItem from="1768814110474" duration="1989000" />
+      <workItem from="1768816505196" duration="10931000" />
+      <workItem from="1768828145849" duration="975000" />
+      <workItem from="1768842797095" duration="9782000" />
+      <workItem from="1768860974274" duration="1355000" />
+      <workItem from="1769170836829" duration="7983000" />
+      <workItem from="1769529917582" duration="262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
